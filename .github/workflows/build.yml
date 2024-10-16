@@ -8,7 +8,7 @@
     # Package manager to use (`pnpm | yarn | npm`)
     package_manager: # optional, default is yarn
     # GitHub authentication token
-    github_token: 
+    github_token: ${{ secrets.TOKEN }}
     # Base64-encoded code signing certificate for macOS
     mac_certs: # optional
     # Password for decrypting `mac_certs`
